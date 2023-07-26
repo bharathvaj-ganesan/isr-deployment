@@ -52,7 +52,7 @@ export default function Home({ repos }) {
       </Head>
 
       <main>
-        <h2>Static repos Demo</h2>
+        <h2>Static repos Demo - New</h2>
         <h3>Repos by bharathvaj-ganesan:</h3>
         {repos.map((r) => (
           <div key={r}>{r}</div>
