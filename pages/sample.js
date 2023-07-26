@@ -12,7 +12,7 @@ export default function Home({ value = '' }) {
   return (
     <div className="container">
       <Head>
-        <title>Static time Demo</title>
+        <title>Static time Demo Sample</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:title" content="Static Reactions Demo" />
