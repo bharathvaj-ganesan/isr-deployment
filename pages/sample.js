@@ -4,7 +4,7 @@ export async function getStaticProps() {
   
   return {
     props: {
-      value: new Date()
+      value: new Date().toISOString()
     },
     revalidate: 1,
   };
