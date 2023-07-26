@@ -31,12 +31,11 @@ export async function getStaticProps() {
   return {
     props: {
       repos: repos.map((r) => r.name),
-    },
-    revalidate: 1,
+    }
   };
 }
 
-export default function Home({ repos }) {
+export default function Home({ repos = [] }) {
   return (
     <div className="container">
       <Head>

@@ -1,16 +1,14 @@
 import Head from 'next/head';
 
 export async function getStaticProps() {
-  
   return {
     props: {
       value: new Date().toISOString()
-    },
-    revalidate: 60,
+    }
   };
 }
 
-export default function Home({ value }) {
+export default function Home({ value = '' }) {
   return (
     <div className="container">
       <Head>
